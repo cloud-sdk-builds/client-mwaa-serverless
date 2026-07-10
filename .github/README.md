@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mwaa-serverless`](https://www.npmjs.com/package/@aws-sdk/client-mwaa-serverless/v/3.1083.0).
+[`@aws-sdk/client-mwaa-serverless`](https://www.npmjs.com/package/@aws-sdk/client-mwaa-serverless/v/3.1084.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-mwaa-serverless - [https://cloud-sdk-builds.github.io/?sdk=client-mwaa-serverless](https://cloud-sdk-builds.github.io/?sdk=client-mwaa-serverless)
-- @aws-sdk/client-mwaa-serverless v3.1083.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mwaa-serverless&version=3.1083.0](https://cloud-sdk-builds.github.io/?sdk=client-mwaa-serverless&version=3.1083.0)
+- @aws-sdk/client-mwaa-serverless v3.1084.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mwaa-serverless&version=3.1084.0](https://cloud-sdk-builds.github.io/?sdk=client-mwaa-serverless&version=3.1084.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1083.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1084.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-+WxXu105BTTc79J3AKxscvmXbfaVJMI7OhMRLW56ktVcvT4k4ZV9U4LVtq53jnak
+sha384-eb5Lal6b8MwYl9DrEnnlcrObrp0Qx39v8sJFW/+mkLcOP1+Pjks34Vc1sNjvcbVz
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mwaa-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1083.0/index.min.mjs"
+            "@aws-sdk/client-mwaa-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1084.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1083.0/index.min.mjs": "sha384-+WxXu105BTTc79J3AKxscvmXbfaVJMI7OhMRLW56ktVcvT4k4ZV9U4LVtq53jnak"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1084.0/index.min.mjs": "sha384-eb5Lal6b8MwYl9DrEnnlcrObrp0Qx39v8sJFW/+mkLcOP1+Pjks34Vc1sNjvcbVz"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mwaa-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1083.0/index.min.mjs"
+                        "@aws-sdk/client-mwaa-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1084.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1083.0/index.min.mjs": "sha384-+WxXu105BTTc79J3AKxscvmXbfaVJMI7OhMRLW56ktVcvT4k4ZV9U4LVtq53jnak"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa-serverless@3.1084.0/index.min.mjs": "sha384-eb5Lal6b8MwYl9DrEnnlcrObrp0Qx39v8sJFW/+mkLcOP1+Pjks34Vc1sNjvcbVz"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1083.0`)
+* Always pin to a specific version (`@3.1084.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mwaa-serverless/blob/refs/tags/3.1083.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mwaa-serverless/blob/refs/tags/3.1084.0/LICENSE
 ```
 
 ---
